@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>offcloud.com</string>
+	<key>Builder Version</key>
+	<string>11601.7.7</string>
+	<key>CFBundleDisplayName</key>
+	<string>offcloud</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.offcloud</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.2.6.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>bg.html</string>
+		<key>Popovers</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>options.html</string>
+				<key>Identifier</key>
+				<string>options</string>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>options</string>
+				<key>Image</key>
+				<string>icon32.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>Offcloud settings</string>
+				<key>Popover</key>
+				<string>options</string>
+				<key>Tool Tip</key>
+				<string>Offcloud settings</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>lib/js/jquery-3.2.1.min.js</string>
+				<string>lib/js/notie.js</string>
+				<string>main.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>lib/css/OpenSans.css</string>
+			<string>lib/css/notie.css</string>
+			<string>css/offcloud.css</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Allows you to take any link and fetch its data, either by directly downloading it, backing it up or transferring it to a third party</string>
+	<key>DeveloperIdentifier</key>
+	<string>0000000000</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://offcloud.com/</string>
+</dict>
+</plist>
